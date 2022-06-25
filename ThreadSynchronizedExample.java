@@ -9,7 +9,7 @@ class Factorial extends Thread{
             for(int i=1;i<=n;i++){
                 fact = i*fact;
             }
-            System.out.println(Thread.currentThread().getName()+"::"+fact);
+            System.out.println(Thread.currentThread().getName()+"factorial is :: "+fact);
                 try {
                     Thread.sleep(400);
                 } catch (Exception e) {
